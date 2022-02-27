@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+    </head>
+    <body>
+        <h2>what are your favouret pets?</h2>
+        <table border="2">
+            <tr>
+                <th>pet image</th>
+                <th>more fact about(as a link)</th>
+                
+                
+            </tr>
+            <tr>
+                
+                <td><img src="Images/horse.jpg" width="200" height="200"></td>
+                <td><a href="https://en.wikipedia.org/wiki/Horse">Horse</a></td>
+                
+            </tr>
+            <tr>
+                
+                <td><img src="Images/cat.jpg" width="200" height="200"></td>
+                <td><a href="https://en.wikipedia.org/wiki/Cat">Cat</a></td>
+                
+            </tr>
+            <tr>
+                
+                <td><img src="Images/dog.jpg" width="200" height="200"></td>
+                <td><a href="https://en.wikipedia.org/wiki/Dog">Dog</a></td>
+                
+            </tr>
+           
+        </table>
+    </body>
+</html>

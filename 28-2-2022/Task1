@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h1>Our First Form!!</h1>
+<table border="1"><th><form action="">
+    <br/>
+    <label>Username:</label><input type="text">
+<br/>
+<br/><label>Password: </label>
+    <input type="password">
+    <br/>
+    <br/>
+    <button>Login</button>
+
+</form></th></table>
+
+
+</body>
+</html>

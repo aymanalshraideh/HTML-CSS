@@ -1,0 +1,12 @@
+.p1 {color: blue;}
+.a1  a {
+    color: orange;
+}
+#a2 a{
+    
+    background-color: rgb(255, 251, 0);
+}
+#removedot{
+    list-style: none;
+}
+a{color: red;}

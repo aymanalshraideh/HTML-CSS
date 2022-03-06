@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.a {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(55, 0, 255);
+  position: relative;
+  animation-name: A;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+text-align: center ;
+margin-left: 25%;
+padding: 20px;
+
+border-radius: 20%;
+}
+
+@keyframes A {
+  0%   {background-color:black; left:0px; top:0px;}
+  25%  {background-color:green; left:400px; top:0px;}
+  50%  {background-color:black; left:400px; top:400px;}
+  75%  {background-color:green; left:0px; top:400px;}
+  100% {background-color:black; left:0px; top:0px;}
+  
+}
+.b {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(55, 0, 255);
+  position: relative;
+  animation-name: b;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+text-align: center ;
+margin-left: 25%;
+padding: 20px;
+
+border-radius: 20%;
+}
+
+@keyframes b {
+  0%   {background-color:green; left:0px; top:0px;}
+  25%  {background-color:black; left:400px; top:0px;}
+  50%  {background-color:green; left:400px; top:400px;}
+  75%  {background-color:black; left:0px; top:400px;}
+  100% {background-color:gre; left:0px; top:0px;}
+  
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="a"> <h1> </h1> <h1>Al-Shraideh</h1> </div>
+<div class="b"> <h1> </h1> <h1>Al-Shraideh</h1> </div>
+
+
+</body>
+</html>

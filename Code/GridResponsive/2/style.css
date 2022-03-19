@@ -46,3 +46,15 @@ body {
 #s {
     color: darkmagenta;
 }
+@media screen and (max-width:480px) {
+    body{background-color: rgb(0, 0, 0); margin: 0 auto;}
+    .container{width: 100%;
+        grid-template-columns: 1fr ;
+        margin: 10% 1%;}
+    .pic {
+        
+        grid-area: 1/1/2/3;
+}
+.c{ margin: 0 25%;
+    grid-template-columns: 1fr;}
+}
